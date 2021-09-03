@@ -1,0 +1,17 @@
+var circleX=0
+var circleY=0
+
+function setup() {
+  createCanvas(600, 600);
+  background(220);
+  frameRate(10);
+  
+}
+
+function draw() {
+  background(220);
+  for (var i=0; i<100; i++){
+    fill(random(255), random(255), random(2550));
+    ellipse(random(50,500), random(50,500), 100, 100);
+  }
+}
