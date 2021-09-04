@@ -2,22 +2,45 @@
 
 var gridInst;
 
+function updateFun() {
+  gridInst = new Grid(10,30,1500);
+}
+
+function saveFun() {
+    save("out.png")
+}
+
+function claimFun() {
+  var person = prompt("username", "Harry Potter");
+  if (person != null) {
+    document.getElementById("claimed").innerHTML = `Seed claimed by ${person}`
+  }
+}
+
+
 function setup() {
   // build the array
   createCanvas(1500, 500);
   background(220);
-  //frameRate(30);
+  frameRate(2);
   noStroke();
   rectMode(CENTER)
-  // could be also outside?
   gridInst = new Grid(10,30,1500);
+  button = createButton('update');
+  button.position(750, 575);
+  button.mousePressed(updateFun);
+  button = createButton('save');
+  button.position(750, 600);
+  button.mousePressed(saveFun);
+  button = createButton('claim');
+  button.position(750, 625);
+  button.mousePressed(claimFun);
 }
 
 function draw() {
   //var grid = new Grid(10,30,1500);
-  gridInst.draw(); 
+  gridInst.draw();  
 }
-
 
 // CLASSES
 class Cell {
@@ -44,8 +67,8 @@ class Grid {
               columns, 
               totalWidth, 
               // totalHeight, 
-              HueMin = 70, // this is orange
-              HueMax = 150, // this is blue
+              HueMin = 50, // this is orange
+              HueMax = 300, // this is blue
               limitLeft = 50, // min 50 
               limitRight = 65) { //max 100
     // number of cells horizontally
