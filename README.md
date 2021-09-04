@@ -12,5 +12,6 @@ Library of beautiful art scripts. The followins works as an index to quickly und
 - Flow Tides
 ![Screenshot 2021-09-04 210959](https://user-images.githubusercontent.com/62625514/132105516-eedf6639-04e3-4bd5-a450-09a71d6c9dba.png)
 - Sin Wave![Screenshot 2021-09-04 221425](https://user-images.githubusercontent.com/62625514/132106971-49807d05-799f-4d3f-bda4-f6cf3c1c670e.png)
+- 10print![Screenshot 2021-09-05 000959](https://user-images.githubusercontent.com/62625514/132109160-c6c02e42-0a26-49fe-afd1-bc4530b014b7.png)
 
 
