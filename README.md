@@ -11,5 +11,6 @@ Library of beautiful art scripts. The followins works as an index to quickly und
 ![Screenshot 2021-09-03 183751](https://user-images.githubusercontent.com/62625514/132039656-8cbb293a-d298-411b-8e32-e421f3bdfb25.png)
 - Flow Tides
 ![Screenshot 2021-09-04 210959](https://user-images.githubusercontent.com/62625514/132105516-eedf6639-04e3-4bd5-a450-09a71d6c9dba.png)
-- Golden Ratio
+- Sin Wave![Screenshot 2021-09-04 221425](https://user-images.githubusercontent.com/62625514/132106971-49807d05-799f-4d3f-bda4-f6cf3c1c670e.png)
+
 
