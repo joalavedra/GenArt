@@ -15,4 +15,6 @@ Library of beautiful art scripts. The followins works as an index to quickly und
 - 10print![Screenshot 2021-09-05 000959](https://user-images.githubusercontent.com/62625514/132109160-c6c02e42-0a26-49fe-afd1-bc4530b014b7.png)
 - Fractal Tree![Screenshot 2021-09-05 015036](https://user-images.githubusercontent.com/62625514/132110623-7fc0623e-44c0-4688-8135-044cd1916fc0.png)
 - Mandelbrot Set 
+- SinWaves![Screenshot 2021-09-05 211553](https://user-images.githubusercontent.com/62625514/132138781-9872fef6-2bb0-45ce-b4f3-49d23cdf1893.png)
 
+- 
